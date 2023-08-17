@@ -1,0 +1,39 @@
+@use "../../../styles.scss" as s;
+
+.balance{
+    // background-image: linear-gradient(to right bottom, #4bea6b, #73ea6b, #90e96e, #a7e973, #bae87a, #bde97a, #c0eb7a, #c3ec7a, #b7f072, #a9f36a, #98f764, #83fb5f);
+    background-image: radial-gradient(circle, #62e68e, #59e587, #4fe47f, #45e277, #39e16f, #30d264, #27c35a, #1cb550, #169643, #117935, #0d5d28, #09421c);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-family: s.$font-family;
+
+    &__header{
+        h4{
+            font-weight: 200;
+            text-align: center;
+        }
+        h2{
+            font-size: 2.2rem;
+            font-weight: 500;
+            text-align: center;
+        }
+        
+    }
+    &__info{
+        display: flex;
+        justify-content: space-between;
+        h4{
+            font-weight: 300;
+            font-size: 0.9rem;
+            
+        }
+        h3{
+            font-size: 1.3rem;
+            font-weight: 600;
+            
+        }
+        
+    }
+}

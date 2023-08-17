@@ -1,0 +1,31 @@
+@use "../../../styles.scss" as s;
+
+.transactions{
+    &__empty-title{
+        font-family: s.$font-family;
+        // color: white;
+        font-size: 1.1rem;
+        font-weight: 400;
+        text-align: center;
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        
+    }
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        h3{
+            font-family: s.$font-family;
+            color: rgb(5, 194, 131);
+        }
+        a{
+            font-family: s.$font-family;
+            text-decoration: none;
+            font-size: 0.9rem;
+            color: rgb(10, 4, 54);
+        }
+    }
+}

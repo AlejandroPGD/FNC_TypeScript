@@ -1,0 +1,69 @@
+@use "../../../styles.scss" as s;
+
+.transaction{
+    // background-image: radial-gradient(circle, #62e68e, #59e587, #4fe47f, #45e277, #39e16f, #30d264, #27c35a, #1cb550, #169643, #117935, #0d5d28, #09421c);
+    // background-image: linear-gradient(to right, #000000, #010100, #010101, #020201, #020202, #191919, #2b2b2b, #3d3d3d, #696969, #989898, #cacaca, #ffffff);
+   background-color: 
+   rgb(6, 29, 9);
+    box-shadow: rgb(62, 245, 92) 0px 20px 30px -10px;
+    border-radius: 20px;
+    padding: 20px;
+    color: rgb(243, 247, 243);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    &__title{
+        display: flex;
+        font-size: 0.9rem;
+    
+    }
+    &__category{
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-transform: capitalize;
+    }
+    &__amount{
+        font-weight: 500;
+        font-size: 0.9rem;
+        text-align: right;
+        
+    }
+    &__date {
+        font-weight: 400;
+        font-size: 0.9rem;
+        text-align: right;
+        color: #8cf3ac;
+    }
+    &__icon {
+        
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    &__income-icon {
+        background-color: green;
+        color: white;
+        
+    }
+    &__expense-icon {
+        background-color: red;
+        color: white;
+        
+    }
+    &__delete {
+       font-size: 0.9;
+        color: white;
+        vertical-align: middle;
+        margin-top: 2px;
+        cursor: pointer;
+        
+    }
+    &__amount-expense{
+        color: red;
+    }
+    &__amount-income{
+        color: green;
+    }
+}
